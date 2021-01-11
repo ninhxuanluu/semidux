@@ -5,7 +5,7 @@ Example:
 
 `exampleEffect.js` 
 
-````
+```javascript
 import { createSideEffect } from 'semidux';
 const exampleEffect = [
    {
@@ -26,7 +26,7 @@ export default createSideEffect(exampleEffect);
 
 `store.js`
 
-```
+```javascript
 import exampleEffect from './exampleEffect.js';
 
 const store = createStore(
@@ -45,7 +45,7 @@ It's working like a Redux middleware, just easier to declare effects in your rea
 
 And a more complicated example:
 
-````
+```javascript
 import { combineSideEffect } from 'semidux';
 const exampleEpic1 = [
   {
