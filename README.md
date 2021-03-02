@@ -1,4 +1,7 @@
 # semidux
+```
+npm i -save semidux
+```
 Simple side effect middleware for Redux
 
 Example:
